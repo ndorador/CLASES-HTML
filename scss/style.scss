@@ -1,14 +1,15 @@
 
-@import 'base/reset';
-@import 'base/typography';
-@import 'base/variables';
+@use 'base/reset';
+@use 'base/typography';
+@use 'base/variables';
 
-@import 'components/button';
+@use 'components/button';
 
-@import 'layout/body';
-@import 'layout/header';
-@import 'layout/main';
-@import 'layout/footer';
-@import 'layout/mobile';
+@use 'layout/body';
+@use 'layout/header';
+@use 'layout/main';
+@use 'layout/footer';
+@use 'layout/mobile';
+@use 'layout/wrapper';
 
-@import 'utilities/mixins';
+@use 'utilities/mixins';
